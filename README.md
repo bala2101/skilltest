@@ -19,6 +19,24 @@ Why $result is false?
 	               
 			The main reason to use the trait is to gain the benefits of multiple inheritance and also the code 
 	               reusability.
+  trait ftrait
+  {
+    function fmethod() { echo "method1"; }
+  }
+  
+  trait strait
+  {
+    function smethod() { echo "method2"; }
+  }
+
+  class fclass
+  {
+    use ftrait, strait;
+  }
+  $obj= new fclass();
+  $obj->fmethod(); 
+  $obj->smethod(); 
+  
 5. How to convert a string in PHP from one character encoding to another?
 	               
 			 mb_convert_encoding

@@ -3,20 +3,25 @@
 ##Task 1
 
 1. Mysql: Name a function that returns a first not null value from several columns passed as an arguments.
-	                COALESCE()
+	                
+			COALESCE()
 
 2. PHP: There is a simple statement:
 $result = true and false;
 Why $result is false?
-	                $result is not false, it is true because 'and' has lower precedence than assignment operators.
+	                
+			$result is not false, it is true because 'and' has lower precedence than assignment operators.
 
 3. How can you validate an email in PHP?
-	                filter_var($email, FILTER_VALIDATE_EMAIL)
+	                
+			filter_var($email, FILTER_VALIDATE_EMAIL)
 4. Give an example of how would you use traits in PHP.
-	               The main reason to use the trait is to gain the benefits of multiple inheritance and also the code 
+	               
+			The main reason to use the trait is to gain the benefits of multiple inheritance and also the code 
 	               reusability.
 5. How to convert a string in PHP from one character encoding to another?
-	                mb_convert_encoding
+	               
+			 mb_convert_encoding
 	                
 	                
 ##Task 3

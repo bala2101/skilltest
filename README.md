@@ -26,4 +26,4 @@ Why $result is false?
 	                
 ##Task 3
 
-Well in task 3, I am still learning some of the fraemworks that you had mentioned. So I had just written in some basic PHP-MySQL.
+Well in task 3, I am still learning some of the frameworks that you had mentioned. So I had just written in some basic PHP-MySQL.
